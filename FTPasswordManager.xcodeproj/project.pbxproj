@@ -1,0 +1,901 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		496CBDAF1C57AD4700FC6481 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 496CBDAE1C57AD4700FC6481 /* main.m */; };
+		496CBDB21C57AD4700FC6481 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 496CBDB11C57AD4700FC6481 /* AppDelegate.m */; };
+		496CBDB51C57AD4700FC6481 /* MasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 496CBDB41C57AD4700FC6481 /* MasterViewController.m */; };
+		496CBDB81C57AD4700FC6481 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 496CBDB61C57AD4700FC6481 /* Main.storyboard */; };
+		496CBDBA1C57AD4700FC6481 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 496CBDB91C57AD4700FC6481 /* Assets.xcassets */; };
+		496CBDBD1C57AD4700FC6481 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 496CBDBB1C57AD4700FC6481 /* LaunchScreen.storyboard */; };
+		496CBDC81C57AD4700FC6481 /* FTPasswordManagerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 496CBDC71C57AD4700FC6481 /* FTPasswordManagerTests.m */; };
+		496CBDD31C57AD4700FC6481 /* FTPasswordManagerUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 496CBDD21C57AD4700FC6481 /* FTPasswordManagerUITests.m */; };
+		496CBE1C1C57AD7D00FC6481 /* MagicalImportFunctions.m in Sources */ = {isa = PBXBuildFile; fileRef = 496CBDE41C57AD7D00FC6481 /* MagicalImportFunctions.m */; };
+		496CBE1D1C57AD7D00FC6481 /* NSAttributeDescription+MagicalDataImport.m in Sources */ = {isa = PBXBuildFile; fileRef = 496CBDE61C57AD7D00FC6481 /* NSAttributeDescription+MagicalDataImport.m */; };
+		496CBE1E1C57AD7D00FC6481 /* NSEntityDescription+MagicalDataImport.m in Sources */ = {isa = PBXBuildFile; fileRef = 496CBDE81C57AD7D00FC6481 /* NSEntityDescription+MagicalDataImport.m */; };
+		496CBE1F1C57AD7D00FC6481 /* NSNumber+MagicalDataImport.m in Sources */ = {isa = PBXBuildFile; fileRef = 496CBDEA1C57AD7D00FC6481 /* NSNumber+MagicalDataImport.m */; };
+		496CBE201C57AD7D00FC6481 /* NSObject+MagicalDataImport.m in Sources */ = {isa = PBXBuildFile; fileRef = 496CBDEC1C57AD7D00FC6481 /* NSObject+MagicalDataImport.m */; };
+		496CBE211C57AD7D00FC6481 /* NSRelationshipDescription+MagicalDataImport.m in Sources */ = {isa = PBXBuildFile; fileRef = 496CBDEE1C57AD7D00FC6481 /* NSRelationshipDescription+MagicalDataImport.m */; };
+		496CBE221C57AD7D00FC6481 /* NSString+MagicalDataImport.m in Sources */ = {isa = PBXBuildFile; fileRef = 496CBDF01C57AD7D00FC6481 /* NSString+MagicalDataImport.m */; };
+		496CBE231C57AD7D00FC6481 /* NSManagedObject+MagicalAggregation.m in Sources */ = {isa = PBXBuildFile; fileRef = 496CBDF31C57AD7D00FC6481 /* NSManagedObject+MagicalAggregation.m */; };
+		496CBE241C57AD7D00FC6481 /* NSManagedObject+MagicalDataImport.m in Sources */ = {isa = PBXBuildFile; fileRef = 496CBDF51C57AD7D00FC6481 /* NSManagedObject+MagicalDataImport.m */; };
+		496CBE251C57AD7D00FC6481 /* NSManagedObject+MagicalFinders.m in Sources */ = {isa = PBXBuildFile; fileRef = 496CBDF71C57AD7D00FC6481 /* NSManagedObject+MagicalFinders.m */; };
+		496CBE261C57AD7D00FC6481 /* NSManagedObject+MagicalRecord.m in Sources */ = {isa = PBXBuildFile; fileRef = 496CBDF91C57AD7D00FC6481 /* NSManagedObject+MagicalRecord.m */; };
+		496CBE271C57AD7D00FC6481 /* NSManagedObject+MagicalRequests.m in Sources */ = {isa = PBXBuildFile; fileRef = 496CBDFB1C57AD7D00FC6481 /* NSManagedObject+MagicalRequests.m */; };
+		496CBE281C57AD7D00FC6481 /* NSManagedObjectContext+MagicalObserving.m in Sources */ = {isa = PBXBuildFile; fileRef = 496CBDFE1C57AD7D00FC6481 /* NSManagedObjectContext+MagicalObserving.m */; };
+		496CBE291C57AD7D00FC6481 /* NSManagedObjectContext+MagicalRecord.m in Sources */ = {isa = PBXBuildFile; fileRef = 496CBE001C57AD7D00FC6481 /* NSManagedObjectContext+MagicalRecord.m */; };
+		496CBE2A1C57AD7D00FC6481 /* NSManagedObjectContext+MagicalSaves.m in Sources */ = {isa = PBXBuildFile; fileRef = 496CBE021C57AD7D00FC6481 /* NSManagedObjectContext+MagicalSaves.m */; };
+		496CBE2B1C57AD7D00FC6481 /* NSManagedObjectContext+MagicalThreading.m in Sources */ = {isa = PBXBuildFile; fileRef = 496CBE041C57AD7D00FC6481 /* NSManagedObjectContext+MagicalThreading.m */; };
+		496CBE2C1C57AD7D00FC6481 /* NSManagedObjectModel+MagicalRecord.m in Sources */ = {isa = PBXBuildFile; fileRef = 496CBE061C57AD7D00FC6481 /* NSManagedObjectModel+MagicalRecord.m */; };
+		496CBE2D1C57AD7D00FC6481 /* NSPersistentStore+MagicalRecord.m in Sources */ = {isa = PBXBuildFile; fileRef = 496CBE081C57AD7D00FC6481 /* NSPersistentStore+MagicalRecord.m */; };
+		496CBE2E1C57AD7D00FC6481 /* NSPersistentStoreCoordinator+MagicalRecord.m in Sources */ = {isa = PBXBuildFile; fileRef = 496CBE0A1C57AD7D00FC6481 /* NSPersistentStoreCoordinator+MagicalRecord.m */; };
+		496CBE2F1C57AD7D00FC6481 /* MagicalRecord+Actions.m in Sources */ = {isa = PBXBuildFile; fileRef = 496CBE0D1C57AD7D00FC6481 /* MagicalRecord+Actions.m */; };
+		496CBE301C57AD7D00FC6481 /* MagicalRecord+ErrorHandling.m in Sources */ = {isa = PBXBuildFile; fileRef = 496CBE0F1C57AD7D00FC6481 /* MagicalRecord+ErrorHandling.m */; };
+		496CBE311C57AD7D00FC6481 /* MagicalRecord+iCloud.m in Sources */ = {isa = PBXBuildFile; fileRef = 496CBE111C57AD7D00FC6481 /* MagicalRecord+iCloud.m */; };
+		496CBE321C57AD7D00FC6481 /* MagicalRecord+Options.m in Sources */ = {isa = PBXBuildFile; fileRef = 496CBE131C57AD7D00FC6481 /* MagicalRecord+Options.m */; };
+		496CBE331C57AD7D00FC6481 /* MagicalRecord+Setup.m in Sources */ = {isa = PBXBuildFile; fileRef = 496CBE151C57AD7D00FC6481 /* MagicalRecord+Setup.m */; };
+		496CBE341C57AD7D00FC6481 /* MagicalRecord+ShorthandSupport.m in Sources */ = {isa = PBXBuildFile; fileRef = 496CBE171C57AD7D00FC6481 /* MagicalRecord+ShorthandSupport.m */; };
+		496CBE351C57AD7D00FC6481 /* MagicalRecord.m in Sources */ = {isa = PBXBuildFile; fileRef = 496CBE191C57AD7D00FC6481 /* MagicalRecord.m */; };
+		496CBE371C57B85A00FC6481 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 496CBE361C57B85A00FC6481 /* CoreData.framework */; };
+		496CBE3C1C57BFD000FC6481 /* PasswordModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 496CBE3A1C57BFD000FC6481 /* PasswordModel.xcdatamodeld */; };
+		496CBE451C57C72000FC6481 /* Password+CoreDataProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = 496CBE3E1C57C72000FC6481 /* Password+CoreDataProperties.m */; };
+		496CBE461C57C72000FC6481 /* Password.m in Sources */ = {isa = PBXBuildFile; fileRef = 496CBE401C57C72000FC6481 /* Password.m */; };
+		496CBE471C57C72000FC6481 /* PasswordDetails+CoreDataProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = 496CBE421C57C72000FC6481 /* PasswordDetails+CoreDataProperties.m */; };
+		496CBE481C57C72000FC6481 /* PasswordDetails.m in Sources */ = {isa = PBXBuildFile; fileRef = 496CBE441C57C72000FC6481 /* PasswordDetails.m */; };
+		496CBE561C586DB500FC6481 /* bg_user_setting@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 496CBE551C586DB500FC6481 /* bg_user_setting@2x.jpg */; };
+		496CBE581C586DFC00FC6481 /* bg_example_project_type_1@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 496CBE571C586DFC00FC6481 /* bg_example_project_type_1@2x.png */; };
+		496CBE5A1C586E0E00FC6481 /* bg_example_project_type_2@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 496CBE591C586E0E00FC6481 /* bg_example_project_type_2@2x.png */; };
+		496CBE5E1C586E8000FC6481 /* common_fullscreenView_back.png in Resources */ = {isa = PBXBuildFile; fileRef = 496CBE5B1C586E8000FC6481 /* common_fullscreenView_back.png */; };
+		496CBE5F1C586E8000FC6481 /* common_fullscreenView_back@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 496CBE5C1C586E8000FC6481 /* common_fullscreenView_back@2x.png */; };
+		496CBE601C586E8000FC6481 /* common_fullscreenView_back@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 496CBE5D1C586E8000FC6481 /* common_fullscreenView_back@3x.png */; };
+		496CBE621C586F0D00FC6481 /* pccommon_switch_on@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 496CBE611C586F0D00FC6481 /* pccommon_switch_on@2x.png */; };
+		496CBE641C586F5300FC6481 /* bg_example_project_type_11@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 496CBE631C586F5300FC6481 /* bg_example_project_type_11@3x.png */; };
+		496CBE671C586F7200FC6481 /* bg_example_project_type_all@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 496CBE651C586F7200FC6481 /* bg_example_project_type_all@2x.png */; };
+		496CBE681C586F7200FC6481 /* bg_example_project_type_all@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 496CBE661C586F7200FC6481 /* bg_example_project_type_all@3x.png */; };
+		496CBE6A1C586FC800FC6481 /* bg_user_setting@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 496CBE691C586FC800FC6481 /* bg_user_setting@3x.png */; };
+		496CC0F61C5B8C1A00FC6481 /* FTPasswordViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 496CC0F51C5B8C1A00FC6481 /* FTPasswordViewController.m */; };
+		496CC0FA1C5B989A00FC6481 /* bg_index_vertical_line1x120@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 496CC0F71C5B989A00FC6481 /* bg_index_vertical_line1x120@2x.png */; };
+		496CC0FB1C5B989A00FC6481 /* bg_index_vertical_line1x40@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 496CC0F81C5B989A00FC6481 /* bg_index_vertical_line1x40@2x.png */; };
+		496CC0FC1C5B989A00FC6481 /* bg_index_horizontal_line@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 496CC0F91C5B989A00FC6481 /* bg_index_horizontal_line@2x.png */; };
+		496CC0FF1C5BBCBD00FC6481 /* FTImageSaver.m in Sources */ = {isa = PBXBuildFile; fileRef = 496CC0FE1C5BBCBD00FC6481 /* FTImageSaver.m */; };
+		496CC1091C5C9E3F00FC6481 /* search_frame@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 496CC1081C5C9E3F00FC6481 /* search_frame@2x.png */; };
+		496CC10C1C5C9E6F00FC6481 /* FTSearchBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 496CC10B1C5C9E6F00FC6481 /* FTSearchBar.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		496CBDC41C57AD4700FC6481 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 496CBDA21C57AD4700FC6481 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 496CBDA91C57AD4700FC6481;
+			remoteInfo = FTPasswordManager;
+		};
+		496CBDCF1C57AD4700FC6481 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 496CBDA21C57AD4700FC6481 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 496CBDA91C57AD4700FC6481;
+			remoteInfo = FTPasswordManager;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		496CBDAA1C57AD4700FC6481 /* FTPasswordManager.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FTPasswordManager.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		496CBDAE1C57AD4700FC6481 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		496CBDB01C57AD4700FC6481 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		496CBDB11C57AD4700FC6481 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		496CBDB31C57AD4700FC6481 /* MasterViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MasterViewController.h; sourceTree = "<group>"; };
+		496CBDB41C57AD4700FC6481 /* MasterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MasterViewController.m; sourceTree = "<group>"; };
+		496CBDB71C57AD4700FC6481 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		496CBDB91C57AD4700FC6481 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		496CBDBC1C57AD4700FC6481 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		496CBDBE1C57AD4700FC6481 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		496CBDC31C57AD4700FC6481 /* FTPasswordManagerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FTPasswordManagerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		496CBDC71C57AD4700FC6481 /* FTPasswordManagerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FTPasswordManagerTests.m; sourceTree = "<group>"; };
+		496CBDC91C57AD4700FC6481 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		496CBDCE1C57AD4700FC6481 /* FTPasswordManagerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FTPasswordManagerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		496CBDD21C57AD4700FC6481 /* FTPasswordManagerUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FTPasswordManagerUITests.m; sourceTree = "<group>"; };
+		496CBDD41C57AD4700FC6481 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		496CBDE31C57AD7D00FC6481 /* MagicalImportFunctions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MagicalImportFunctions.h; sourceTree = "<group>"; };
+		496CBDE41C57AD7D00FC6481 /* MagicalImportFunctions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MagicalImportFunctions.m; sourceTree = "<group>"; };
+		496CBDE51C57AD7D00FC6481 /* NSAttributeDescription+MagicalDataImport.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSAttributeDescription+MagicalDataImport.h"; sourceTree = "<group>"; };
+		496CBDE61C57AD7D00FC6481 /* NSAttributeDescription+MagicalDataImport.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSAttributeDescription+MagicalDataImport.m"; sourceTree = "<group>"; };
+		496CBDE71C57AD7D00FC6481 /* NSEntityDescription+MagicalDataImport.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSEntityDescription+MagicalDataImport.h"; sourceTree = "<group>"; };
+		496CBDE81C57AD7D00FC6481 /* NSEntityDescription+MagicalDataImport.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSEntityDescription+MagicalDataImport.m"; sourceTree = "<group>"; };
+		496CBDE91C57AD7D00FC6481 /* NSNumber+MagicalDataImport.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSNumber+MagicalDataImport.h"; sourceTree = "<group>"; };
+		496CBDEA1C57AD7D00FC6481 /* NSNumber+MagicalDataImport.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSNumber+MagicalDataImport.m"; sourceTree = "<group>"; };
+		496CBDEB1C57AD7D00FC6481 /* NSObject+MagicalDataImport.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+MagicalDataImport.h"; sourceTree = "<group>"; };
+		496CBDEC1C57AD7D00FC6481 /* NSObject+MagicalDataImport.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+MagicalDataImport.m"; sourceTree = "<group>"; };
+		496CBDED1C57AD7D00FC6481 /* NSRelationshipDescription+MagicalDataImport.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSRelationshipDescription+MagicalDataImport.h"; sourceTree = "<group>"; };
+		496CBDEE1C57AD7D00FC6481 /* NSRelationshipDescription+MagicalDataImport.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSRelationshipDescription+MagicalDataImport.m"; sourceTree = "<group>"; };
+		496CBDEF1C57AD7D00FC6481 /* NSString+MagicalDataImport.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+MagicalDataImport.h"; sourceTree = "<group>"; };
+		496CBDF01C57AD7D00FC6481 /* NSString+MagicalDataImport.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+MagicalDataImport.m"; sourceTree = "<group>"; };
+		496CBDF21C57AD7D00FC6481 /* NSManagedObject+MagicalAggregation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSManagedObject+MagicalAggregation.h"; sourceTree = "<group>"; };
+		496CBDF31C57AD7D00FC6481 /* NSManagedObject+MagicalAggregation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSManagedObject+MagicalAggregation.m"; sourceTree = "<group>"; };
+		496CBDF41C57AD7D00FC6481 /* NSManagedObject+MagicalDataImport.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSManagedObject+MagicalDataImport.h"; sourceTree = "<group>"; };
+		496CBDF51C57AD7D00FC6481 /* NSManagedObject+MagicalDataImport.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSManagedObject+MagicalDataImport.m"; sourceTree = "<group>"; };
+		496CBDF61C57AD7D00FC6481 /* NSManagedObject+MagicalFinders.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSManagedObject+MagicalFinders.h"; sourceTree = "<group>"; };
+		496CBDF71C57AD7D00FC6481 /* NSManagedObject+MagicalFinders.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSManagedObject+MagicalFinders.m"; sourceTree = "<group>"; };
+		496CBDF81C57AD7D00FC6481 /* NSManagedObject+MagicalRecord.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSManagedObject+MagicalRecord.h"; sourceTree = "<group>"; };
+		496CBDF91C57AD7D00FC6481 /* NSManagedObject+MagicalRecord.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSManagedObject+MagicalRecord.m"; sourceTree = "<group>"; };
+		496CBDFA1C57AD7D00FC6481 /* NSManagedObject+MagicalRequests.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSManagedObject+MagicalRequests.h"; sourceTree = "<group>"; };
+		496CBDFB1C57AD7D00FC6481 /* NSManagedObject+MagicalRequests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSManagedObject+MagicalRequests.m"; sourceTree = "<group>"; };
+		496CBDFD1C57AD7D00FC6481 /* NSManagedObjectContext+MagicalObserving.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSManagedObjectContext+MagicalObserving.h"; sourceTree = "<group>"; };
+		496CBDFE1C57AD7D00FC6481 /* NSManagedObjectContext+MagicalObserving.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSManagedObjectContext+MagicalObserving.m"; sourceTree = "<group>"; };
+		496CBDFF1C57AD7D00FC6481 /* NSManagedObjectContext+MagicalRecord.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSManagedObjectContext+MagicalRecord.h"; sourceTree = "<group>"; };
+		496CBE001C57AD7D00FC6481 /* NSManagedObjectContext+MagicalRecord.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSManagedObjectContext+MagicalRecord.m"; sourceTree = "<group>"; };
+		496CBE011C57AD7D00FC6481 /* NSManagedObjectContext+MagicalSaves.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSManagedObjectContext+MagicalSaves.h"; sourceTree = "<group>"; };
+		496CBE021C57AD7D00FC6481 /* NSManagedObjectContext+MagicalSaves.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSManagedObjectContext+MagicalSaves.m"; sourceTree = "<group>"; };
+		496CBE031C57AD7D00FC6481 /* NSManagedObjectContext+MagicalThreading.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSManagedObjectContext+MagicalThreading.h"; sourceTree = "<group>"; };
+		496CBE041C57AD7D00FC6481 /* NSManagedObjectContext+MagicalThreading.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSManagedObjectContext+MagicalThreading.m"; sourceTree = "<group>"; };
+		496CBE051C57AD7D00FC6481 /* NSManagedObjectModel+MagicalRecord.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSManagedObjectModel+MagicalRecord.h"; sourceTree = "<group>"; };
+		496CBE061C57AD7D00FC6481 /* NSManagedObjectModel+MagicalRecord.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSManagedObjectModel+MagicalRecord.m"; sourceTree = "<group>"; };
+		496CBE071C57AD7D00FC6481 /* NSPersistentStore+MagicalRecord.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSPersistentStore+MagicalRecord.h"; sourceTree = "<group>"; };
+		496CBE081C57AD7D00FC6481 /* NSPersistentStore+MagicalRecord.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSPersistentStore+MagicalRecord.m"; sourceTree = "<group>"; };
+		496CBE091C57AD7D00FC6481 /* NSPersistentStoreCoordinator+MagicalRecord.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSPersistentStoreCoordinator+MagicalRecord.h"; sourceTree = "<group>"; };
+		496CBE0A1C57AD7D00FC6481 /* NSPersistentStoreCoordinator+MagicalRecord.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSPersistentStoreCoordinator+MagicalRecord.m"; sourceTree = "<group>"; };
+		496CBE0C1C57AD7D00FC6481 /* MagicalRecord+Actions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MagicalRecord+Actions.h"; sourceTree = "<group>"; };
+		496CBE0D1C57AD7D00FC6481 /* MagicalRecord+Actions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "MagicalRecord+Actions.m"; sourceTree = "<group>"; };
+		496CBE0E1C57AD7D00FC6481 /* MagicalRecord+ErrorHandling.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MagicalRecord+ErrorHandling.h"; sourceTree = "<group>"; };
+		496CBE0F1C57AD7D00FC6481 /* MagicalRecord+ErrorHandling.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "MagicalRecord+ErrorHandling.m"; sourceTree = "<group>"; };
+		496CBE101C57AD7D00FC6481 /* MagicalRecord+iCloud.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MagicalRecord+iCloud.h"; sourceTree = "<group>"; };
+		496CBE111C57AD7D00FC6481 /* MagicalRecord+iCloud.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "MagicalRecord+iCloud.m"; sourceTree = "<group>"; };
+		496CBE121C57AD7D00FC6481 /* MagicalRecord+Options.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MagicalRecord+Options.h"; sourceTree = "<group>"; };
+		496CBE131C57AD7D00FC6481 /* MagicalRecord+Options.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "MagicalRecord+Options.m"; sourceTree = "<group>"; };
+		496CBE141C57AD7D00FC6481 /* MagicalRecord+Setup.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MagicalRecord+Setup.h"; sourceTree = "<group>"; };
+		496CBE151C57AD7D00FC6481 /* MagicalRecord+Setup.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "MagicalRecord+Setup.m"; sourceTree = "<group>"; };
+		496CBE161C57AD7D00FC6481 /* MagicalRecord+ShorthandSupport.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MagicalRecord+ShorthandSupport.h"; sourceTree = "<group>"; };
+		496CBE171C57AD7D00FC6481 /* MagicalRecord+ShorthandSupport.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "MagicalRecord+ShorthandSupport.m"; sourceTree = "<group>"; };
+		496CBE181C57AD7D00FC6481 /* MagicalRecord.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MagicalRecord.h; sourceTree = "<group>"; };
+		496CBE191C57AD7D00FC6481 /* MagicalRecord.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MagicalRecord.m; sourceTree = "<group>"; };
+		496CBE1A1C57AD7D00FC6481 /* MagicalRecordShorthand.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MagicalRecordShorthand.h; sourceTree = "<group>"; };
+		496CBE1B1C57AD7D00FC6481 /* CoreData+MagicalRecord.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "CoreData+MagicalRecord.h"; sourceTree = "<group>"; };
+		496CBE361C57B85A00FC6481 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		496CBE391C57B9D100FC6481 /* FTPasswordManager-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "FTPasswordManager-Prefix.pch"; sourceTree = "<group>"; };
+		496CBE3B1C57BFD000FC6481 /* PasswordModel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = PasswordModel.xcdatamodel; sourceTree = "<group>"; };
+		496CBE3D1C57C72000FC6481 /* Password+CoreDataProperties.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "Password+CoreDataProperties.h"; path = "../Password+CoreDataProperties.h"; sourceTree = "<group>"; };
+		496CBE3E1C57C72000FC6481 /* Password+CoreDataProperties.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "Password+CoreDataProperties.m"; path = "../Password+CoreDataProperties.m"; sourceTree = "<group>"; };
+		496CBE3F1C57C72000FC6481 /* Password.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Password.h; path = ../Password.h; sourceTree = "<group>"; };
+		496CBE401C57C72000FC6481 /* Password.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Password.m; path = ../Password.m; sourceTree = "<group>"; };
+		496CBE411C57C72000FC6481 /* PasswordDetails+CoreDataProperties.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "PasswordDetails+CoreDataProperties.h"; path = "../PasswordDetails+CoreDataProperties.h"; sourceTree = "<group>"; };
+		496CBE421C57C72000FC6481 /* PasswordDetails+CoreDataProperties.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "PasswordDetails+CoreDataProperties.m"; path = "../PasswordDetails+CoreDataProperties.m"; sourceTree = "<group>"; };
+		496CBE431C57C72000FC6481 /* PasswordDetails.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PasswordDetails.h; path = ../PasswordDetails.h; sourceTree = "<group>"; };
+		496CBE441C57C72000FC6481 /* PasswordDetails.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PasswordDetails.m; path = ../PasswordDetails.m; sourceTree = "<group>"; };
+		496CBE551C586DB500FC6481 /* bg_user_setting@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "bg_user_setting@2x.jpg"; sourceTree = "<group>"; };
+		496CBE571C586DFC00FC6481 /* bg_example_project_type_1@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "bg_example_project_type_1@2x.png"; sourceTree = "<group>"; };
+		496CBE591C586E0E00FC6481 /* bg_example_project_type_2@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "bg_example_project_type_2@2x.png"; sourceTree = "<group>"; };
+		496CBE5B1C586E8000FC6481 /* common_fullscreenView_back.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = common_fullscreenView_back.png; sourceTree = "<group>"; };
+		496CBE5C1C586E8000FC6481 /* common_fullscreenView_back@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "common_fullscreenView_back@2x.png"; sourceTree = "<group>"; };
+		496CBE5D1C586E8000FC6481 /* common_fullscreenView_back@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "common_fullscreenView_back@3x.png"; sourceTree = "<group>"; };
+		496CBE611C586F0D00FC6481 /* pccommon_switch_on@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "pccommon_switch_on@2x.png"; sourceTree = "<group>"; };
+		496CBE631C586F5300FC6481 /* bg_example_project_type_11@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "bg_example_project_type_11@3x.png"; sourceTree = "<group>"; };
+		496CBE651C586F7200FC6481 /* bg_example_project_type_all@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "bg_example_project_type_all@2x.png"; sourceTree = "<group>"; };
+		496CBE661C586F7200FC6481 /* bg_example_project_type_all@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "bg_example_project_type_all@3x.png"; sourceTree = "<group>"; };
+		496CBE691C586FC800FC6481 /* bg_user_setting@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "bg_user_setting@3x.png"; sourceTree = "<group>"; };
+		496CC0F41C5B8C1A00FC6481 /* FTPasswordViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FTPasswordViewController.h; sourceTree = "<group>"; };
+		496CC0F51C5B8C1A00FC6481 /* FTPasswordViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FTPasswordViewController.m; sourceTree = "<group>"; };
+		496CC0F71C5B989A00FC6481 /* bg_index_vertical_line1x120@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "bg_index_vertical_line1x120@2x.png"; sourceTree = "<group>"; };
+		496CC0F81C5B989A00FC6481 /* bg_index_vertical_line1x40@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "bg_index_vertical_line1x40@2x.png"; sourceTree = "<group>"; };
+		496CC0F91C5B989A00FC6481 /* bg_index_horizontal_line@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "bg_index_horizontal_line@2x.png"; sourceTree = "<group>"; };
+		496CC0FD1C5BBCBD00FC6481 /* FTImageSaver.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FTImageSaver.h; sourceTree = "<group>"; };
+		496CC0FE1C5BBCBD00FC6481 /* FTImageSaver.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FTImageSaver.m; sourceTree = "<group>"; };
+		496CC1081C5C9E3F00FC6481 /* search_frame@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "search_frame@2x.png"; sourceTree = "<group>"; };
+		496CC10A1C5C9E6F00FC6481 /* FTSearchBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FTSearchBar.h; sourceTree = "<group>"; };
+		496CC10B1C5C9E6F00FC6481 /* FTSearchBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FTSearchBar.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		496CBDA71C57AD4700FC6481 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				496CBE371C57B85A00FC6481 /* CoreData.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		496CBDC01C57AD4700FC6481 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		496CBDCB1C57AD4700FC6481 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		496CBDA11C57AD4700FC6481 = {
+			isa = PBXGroup;
+			children = (
+				496CBDE01C57AD7D00FC6481 /* MagicalRecord */,
+				496CBDAC1C57AD4700FC6481 /* FTPasswordManager */,
+				496CBDC61C57AD4700FC6481 /* FTPasswordManagerTests */,
+				496CBDD11C57AD4700FC6481 /* FTPasswordManagerUITests */,
+				496CBE381C57B86D00FC6481 /* Frameworks */,
+				496CBDAB1C57AD4700FC6481 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		496CBDAB1C57AD4700FC6481 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				496CBDAA1C57AD4700FC6481 /* FTPasswordManager.app */,
+				496CBDC31C57AD4700FC6481 /* FTPasswordManagerTests.xctest */,
+				496CBDCE1C57AD4700FC6481 /* FTPasswordManagerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		496CBDAC1C57AD4700FC6481 /* FTPasswordManager */ = {
+			isa = PBXGroup;
+			children = (
+				496CC10E1C5CA5C200FC6481 /* view */,
+				496CC10D1C5CA5B800FC6481 /* ViewController */,
+				496CBE491C5856FC00FC6481 /* model */,
+				496CBE3A1C57BFD000FC6481 /* PasswordModel.xcdatamodeld */,
+				496CBE391C57B9D100FC6481 /* FTPasswordManager-Prefix.pch */,
+				496CBDB01C57AD4700FC6481 /* AppDelegate.h */,
+				496CBDB11C57AD4700FC6481 /* AppDelegate.m */,
+				496CC0FD1C5BBCBD00FC6481 /* FTImageSaver.h */,
+				496CC0FE1C5BBCBD00FC6481 /* FTImageSaver.m */,
+				496CBDB61C57AD4700FC6481 /* Main.storyboard */,
+				496CBDB91C57AD4700FC6481 /* Assets.xcassets */,
+				496CBDBB1C57AD4700FC6481 /* LaunchScreen.storyboard */,
+				496CBDAD1C57AD4700FC6481 /* Supporting Files */,
+			);
+			path = FTPasswordManager;
+			sourceTree = "<group>";
+		};
+		496CBDAD1C57AD4700FC6481 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				496CBE541C586D9000FC6481 /* images */,
+				496CBDAE1C57AD4700FC6481 /* main.m */,
+				496CBDBE1C57AD4700FC6481 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		496CBDC61C57AD4700FC6481 /* FTPasswordManagerTests */ = {
+			isa = PBXGroup;
+			children = (
+				496CBDC71C57AD4700FC6481 /* FTPasswordManagerTests.m */,
+				496CBDC91C57AD4700FC6481 /* Info.plist */,
+			);
+			path = FTPasswordManagerTests;
+			sourceTree = "<group>";
+		};
+		496CBDD11C57AD4700FC6481 /* FTPasswordManagerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				496CBDD21C57AD4700FC6481 /* FTPasswordManagerUITests.m */,
+				496CBDD41C57AD4700FC6481 /* Info.plist */,
+			);
+			path = FTPasswordManagerUITests;
+			sourceTree = "<group>";
+		};
+		496CBDE01C57AD7D00FC6481 /* MagicalRecord */ = {
+			isa = PBXGroup;
+			children = (
+				496CBDE11C57AD7D00FC6481 /* Categories */,
+				496CBE0B1C57AD7D00FC6481 /* Core */,
+				496CBE1B1C57AD7D00FC6481 /* CoreData+MagicalRecord.h */,
+			);
+			path = MagicalRecord;
+			sourceTree = "<group>";
+		};
+		496CBDE11C57AD7D00FC6481 /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+				496CBDE21C57AD7D00FC6481 /* DataImport */,
+				496CBDF11C57AD7D00FC6481 /* NSManagedObject */,
+				496CBDFC1C57AD7D00FC6481 /* NSManagedObjectContext */,
+				496CBE051C57AD7D00FC6481 /* NSManagedObjectModel+MagicalRecord.h */,
+				496CBE061C57AD7D00FC6481 /* NSManagedObjectModel+MagicalRecord.m */,
+				496CBE071C57AD7D00FC6481 /* NSPersistentStore+MagicalRecord.h */,
+				496CBE081C57AD7D00FC6481 /* NSPersistentStore+MagicalRecord.m */,
+				496CBE091C57AD7D00FC6481 /* NSPersistentStoreCoordinator+MagicalRecord.h */,
+				496CBE0A1C57AD7D00FC6481 /* NSPersistentStoreCoordinator+MagicalRecord.m */,
+			);
+			path = Categories;
+			sourceTree = "<group>";
+		};
+		496CBDE21C57AD7D00FC6481 /* DataImport */ = {
+			isa = PBXGroup;
+			children = (
+				496CBDE31C57AD7D00FC6481 /* MagicalImportFunctions.h */,
+				496CBDE41C57AD7D00FC6481 /* MagicalImportFunctions.m */,
+				496CBDE51C57AD7D00FC6481 /* NSAttributeDescription+MagicalDataImport.h */,
+				496CBDE61C57AD7D00FC6481 /* NSAttributeDescription+MagicalDataImport.m */,
+				496CBDE71C57AD7D00FC6481 /* NSEntityDescription+MagicalDataImport.h */,
+				496CBDE81C57AD7D00FC6481 /* NSEntityDescription+MagicalDataImport.m */,
+				496CBDE91C57AD7D00FC6481 /* NSNumber+MagicalDataImport.h */,
+				496CBDEA1C57AD7D00FC6481 /* NSNumber+MagicalDataImport.m */,
+				496CBDEB1C57AD7D00FC6481 /* NSObject+MagicalDataImport.h */,
+				496CBDEC1C57AD7D00FC6481 /* NSObject+MagicalDataImport.m */,
+				496CBDED1C57AD7D00FC6481 /* NSRelationshipDescription+MagicalDataImport.h */,
+				496CBDEE1C57AD7D00FC6481 /* NSRelationshipDescription+MagicalDataImport.m */,
+				496CBDEF1C57AD7D00FC6481 /* NSString+MagicalDataImport.h */,
+				496CBDF01C57AD7D00FC6481 /* NSString+MagicalDataImport.m */,
+			);
+			path = DataImport;
+			sourceTree = "<group>";
+		};
+		496CBDF11C57AD7D00FC6481 /* NSManagedObject */ = {
+			isa = PBXGroup;
+			children = (
+				496CBDF21C57AD7D00FC6481 /* NSManagedObject+MagicalAggregation.h */,
+				496CBDF31C57AD7D00FC6481 /* NSManagedObject+MagicalAggregation.m */,
+				496CBDF41C57AD7D00FC6481 /* NSManagedObject+MagicalDataImport.h */,
+				496CBDF51C57AD7D00FC6481 /* NSManagedObject+MagicalDataImport.m */,
+				496CBDF61C57AD7D00FC6481 /* NSManagedObject+MagicalFinders.h */,
+				496CBDF71C57AD7D00FC6481 /* NSManagedObject+MagicalFinders.m */,
+				496CBDF81C57AD7D00FC6481 /* NSManagedObject+MagicalRecord.h */,
+				496CBDF91C57AD7D00FC6481 /* NSManagedObject+MagicalRecord.m */,
+				496CBDFA1C57AD7D00FC6481 /* NSManagedObject+MagicalRequests.h */,
+				496CBDFB1C57AD7D00FC6481 /* NSManagedObject+MagicalRequests.m */,
+			);
+			path = NSManagedObject;
+			sourceTree = "<group>";
+		};
+		496CBDFC1C57AD7D00FC6481 /* NSManagedObjectContext */ = {
+			isa = PBXGroup;
+			children = (
+				496CBDFD1C57AD7D00FC6481 /* NSManagedObjectContext+MagicalObserving.h */,
+				496CBDFE1C57AD7D00FC6481 /* NSManagedObjectContext+MagicalObserving.m */,
+				496CBDFF1C57AD7D00FC6481 /* NSManagedObjectContext+MagicalRecord.h */,
+				496CBE001C57AD7D00FC6481 /* NSManagedObjectContext+MagicalRecord.m */,
+				496CBE011C57AD7D00FC6481 /* NSManagedObjectContext+MagicalSaves.h */,
+				496CBE021C57AD7D00FC6481 /* NSManagedObjectContext+MagicalSaves.m */,
+				496CBE031C57AD7D00FC6481 /* NSManagedObjectContext+MagicalThreading.h */,
+				496CBE041C57AD7D00FC6481 /* NSManagedObjectContext+MagicalThreading.m */,
+			);
+			path = NSManagedObjectContext;
+			sourceTree = "<group>";
+		};
+		496CBE0B1C57AD7D00FC6481 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				496CBE0C1C57AD7D00FC6481 /* MagicalRecord+Actions.h */,
+				496CBE0D1C57AD7D00FC6481 /* MagicalRecord+Actions.m */,
+				496CBE0E1C57AD7D00FC6481 /* MagicalRecord+ErrorHandling.h */,
+				496CBE0F1C57AD7D00FC6481 /* MagicalRecord+ErrorHandling.m */,
+				496CBE101C57AD7D00FC6481 /* MagicalRecord+iCloud.h */,
+				496CBE111C57AD7D00FC6481 /* MagicalRecord+iCloud.m */,
+				496CBE121C57AD7D00FC6481 /* MagicalRecord+Options.h */,
+				496CBE131C57AD7D00FC6481 /* MagicalRecord+Options.m */,
+				496CBE141C57AD7D00FC6481 /* MagicalRecord+Setup.h */,
+				496CBE151C57AD7D00FC6481 /* MagicalRecord+Setup.m */,
+				496CBE161C57AD7D00FC6481 /* MagicalRecord+ShorthandSupport.h */,
+				496CBE171C57AD7D00FC6481 /* MagicalRecord+ShorthandSupport.m */,
+				496CBE181C57AD7D00FC6481 /* MagicalRecord.h */,
+				496CBE191C57AD7D00FC6481 /* MagicalRecord.m */,
+				496CBE1A1C57AD7D00FC6481 /* MagicalRecordShorthand.h */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		496CBE381C57B86D00FC6481 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				496CBE361C57B85A00FC6481 /* CoreData.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		496CBE491C5856FC00FC6481 /* model */ = {
+			isa = PBXGroup;
+			children = (
+				496CBE3D1C57C72000FC6481 /* Password+CoreDataProperties.h */,
+				496CBE3E1C57C72000FC6481 /* Password+CoreDataProperties.m */,
+				496CBE3F1C57C72000FC6481 /* Password.h */,
+				496CBE401C57C72000FC6481 /* Password.m */,
+				496CBE411C57C72000FC6481 /* PasswordDetails+CoreDataProperties.h */,
+				496CBE421C57C72000FC6481 /* PasswordDetails+CoreDataProperties.m */,
+				496CBE431C57C72000FC6481 /* PasswordDetails.h */,
+				496CBE441C57C72000FC6481 /* PasswordDetails.m */,
+			);
+			name = model;
+			sourceTree = "<group>";
+		};
+		496CBE541C586D9000FC6481 /* images */ = {
+			isa = PBXGroup;
+			children = (
+				496CBE551C586DB500FC6481 /* bg_user_setting@2x.jpg */,
+				496CBE691C586FC800FC6481 /* bg_user_setting@3x.png */,
+				496CC1081C5C9E3F00FC6481 /* search_frame@2x.png */,
+				496CC0F71C5B989A00FC6481 /* bg_index_vertical_line1x120@2x.png */,
+				496CC0F81C5B989A00FC6481 /* bg_index_vertical_line1x40@2x.png */,
+				496CC0F91C5B989A00FC6481 /* bg_index_horizontal_line@2x.png */,
+				496CBE571C586DFC00FC6481 /* bg_example_project_type_1@2x.png */,
+				496CBE651C586F7200FC6481 /* bg_example_project_type_all@2x.png */,
+				496CBE661C586F7200FC6481 /* bg_example_project_type_all@3x.png */,
+				496CBE611C586F0D00FC6481 /* pccommon_switch_on@2x.png */,
+				496CBE631C586F5300FC6481 /* bg_example_project_type_11@3x.png */,
+				496CBE591C586E0E00FC6481 /* bg_example_project_type_2@2x.png */,
+				496CBE5B1C586E8000FC6481 /* common_fullscreenView_back.png */,
+				496CBE5C1C586E8000FC6481 /* common_fullscreenView_back@2x.png */,
+				496CBE5D1C586E8000FC6481 /* common_fullscreenView_back@3x.png */,
+			);
+			name = images;
+			sourceTree = "<group>";
+		};
+		496CC10D1C5CA5B800FC6481 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				496CBDB31C57AD4700FC6481 /* MasterViewController.h */,
+				496CBDB41C57AD4700FC6481 /* MasterViewController.m */,
+				496CC0F41C5B8C1A00FC6481 /* FTPasswordViewController.h */,
+				496CC0F51C5B8C1A00FC6481 /* FTPasswordViewController.m */,
+			);
+			name = ViewController;
+			sourceTree = "<group>";
+		};
+		496CC10E1C5CA5C200FC6481 /* view */ = {
+			isa = PBXGroup;
+			children = (
+				496CC10A1C5C9E6F00FC6481 /* FTSearchBar.h */,
+				496CC10B1C5C9E6F00FC6481 /* FTSearchBar.m */,
+			);
+			name = view;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		496CBDA91C57AD4700FC6481 /* FTPasswordManager */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 496CBDD71C57AD4700FC6481 /* Build configuration list for PBXNativeTarget "FTPasswordManager" */;
+			buildPhases = (
+				496CBDA61C57AD4700FC6481 /* Sources */,
+				496CBDA71C57AD4700FC6481 /* Frameworks */,
+				496CBDA81C57AD4700FC6481 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FTPasswordManager;
+			productName = FTPasswordManager;
+			productReference = 496CBDAA1C57AD4700FC6481 /* FTPasswordManager.app */;
+			productType = "com.apple.product-type.application";
+		};
+		496CBDC21C57AD4700FC6481 /* FTPasswordManagerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 496CBDDA1C57AD4700FC6481 /* Build configuration list for PBXNativeTarget "FTPasswordManagerTests" */;
+			buildPhases = (
+				496CBDBF1C57AD4700FC6481 /* Sources */,
+				496CBDC01C57AD4700FC6481 /* Frameworks */,
+				496CBDC11C57AD4700FC6481 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				496CBDC51C57AD4700FC6481 /* PBXTargetDependency */,
+			);
+			name = FTPasswordManagerTests;
+			productName = FTPasswordManagerTests;
+			productReference = 496CBDC31C57AD4700FC6481 /* FTPasswordManagerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		496CBDCD1C57AD4700FC6481 /* FTPasswordManagerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 496CBDDD1C57AD4700FC6481 /* Build configuration list for PBXNativeTarget "FTPasswordManagerUITests" */;
+			buildPhases = (
+				496CBDCA1C57AD4700FC6481 /* Sources */,
+				496CBDCB1C57AD4700FC6481 /* Frameworks */,
+				496CBDCC1C57AD4700FC6481 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				496CBDD01C57AD4700FC6481 /* PBXTargetDependency */,
+			);
+			name = FTPasswordManagerUITests;
+			productName = FTPasswordManagerUITests;
+			productReference = 496CBDCE1C57AD4700FC6481 /* FTPasswordManagerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		496CBDA21C57AD4700FC6481 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = com.fountain;
+				TargetAttributes = {
+					496CBDA91C57AD4700FC6481 = {
+						CreatedOnToolsVersion = 7.1;
+					};
+					496CBDC21C57AD4700FC6481 = {
+						CreatedOnToolsVersion = 7.1;
+						TestTargetID = 496CBDA91C57AD4700FC6481;
+					};
+					496CBDCD1C57AD4700FC6481 = {
+						CreatedOnToolsVersion = 7.1;
+						TestTargetID = 496CBDA91C57AD4700FC6481;
+					};
+				};
+			};
+			buildConfigurationList = 496CBDA51C57AD4700FC6481 /* Build configuration list for PBXProject "FTPasswordManager" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 496CBDA11C57AD4700FC6481;
+			productRefGroup = 496CBDAB1C57AD4700FC6481 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				496CBDA91C57AD4700FC6481 /* FTPasswordManager */,
+				496CBDC21C57AD4700FC6481 /* FTPasswordManagerTests */,
+				496CBDCD1C57AD4700FC6481 /* FTPasswordManagerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		496CBDA81C57AD4700FC6481 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				496CC0FB1C5B989A00FC6481 /* bg_index_vertical_line1x40@2x.png in Resources */,
+				496CBE5F1C586E8000FC6481 /* common_fullscreenView_back@2x.png in Resources */,
+				496CBDBD1C57AD4700FC6481 /* LaunchScreen.storyboard in Resources */,
+				496CBE5E1C586E8000FC6481 /* common_fullscreenView_back.png in Resources */,
+				496CBE5A1C586E0E00FC6481 /* bg_example_project_type_2@2x.png in Resources */,
+				496CBE681C586F7200FC6481 /* bg_example_project_type_all@3x.png in Resources */,
+				496CBE581C586DFC00FC6481 /* bg_example_project_type_1@2x.png in Resources */,
+				496CC0FA1C5B989A00FC6481 /* bg_index_vertical_line1x120@2x.png in Resources */,
+				496CBE6A1C586FC800FC6481 /* bg_user_setting@3x.png in Resources */,
+				496CBE621C586F0D00FC6481 /* pccommon_switch_on@2x.png in Resources */,
+				496CC1091C5C9E3F00FC6481 /* search_frame@2x.png in Resources */,
+				496CBE641C586F5300FC6481 /* bg_example_project_type_11@3x.png in Resources */,
+				496CBE561C586DB500FC6481 /* bg_user_setting@2x.jpg in Resources */,
+				496CBDBA1C57AD4700FC6481 /* Assets.xcassets in Resources */,
+				496CC0FC1C5B989A00FC6481 /* bg_index_horizontal_line@2x.png in Resources */,
+				496CBE601C586E8000FC6481 /* common_fullscreenView_back@3x.png in Resources */,
+				496CBE671C586F7200FC6481 /* bg_example_project_type_all@2x.png in Resources */,
+				496CBDB81C57AD4700FC6481 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		496CBDC11C57AD4700FC6481 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		496CBDCC1C57AD4700FC6481 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		496CBDA61C57AD4700FC6481 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				496CBDB51C57AD4700FC6481 /* MasterViewController.m in Sources */,
+				496CBE271C57AD7D00FC6481 /* NSManagedObject+MagicalRequests.m in Sources */,
+				496CBE2F1C57AD7D00FC6481 /* MagicalRecord+Actions.m in Sources */,
+				496CBE2E1C57AD7D00FC6481 /* NSPersistentStoreCoordinator+MagicalRecord.m in Sources */,
+				496CBE3C1C57BFD000FC6481 /* PasswordModel.xcdatamodeld in Sources */,
+				496CBE1C1C57AD7D00FC6481 /* MagicalImportFunctions.m in Sources */,
+				496CBE1D1C57AD7D00FC6481 /* NSAttributeDescription+MagicalDataImport.m in Sources */,
+				496CBE311C57AD7D00FC6481 /* MagicalRecord+iCloud.m in Sources */,
+				496CBE291C57AD7D00FC6481 /* NSManagedObjectContext+MagicalRecord.m in Sources */,
+				496CC0F61C5B8C1A00FC6481 /* FTPasswordViewController.m in Sources */,
+				496CBE471C57C72000FC6481 /* PasswordDetails+CoreDataProperties.m in Sources */,
+				496CBE2C1C57AD7D00FC6481 /* NSManagedObjectModel+MagicalRecord.m in Sources */,
+				496CBDB21C57AD4700FC6481 /* AppDelegate.m in Sources */,
+				496CBE341C57AD7D00FC6481 /* MagicalRecord+ShorthandSupport.m in Sources */,
+				496CBE251C57AD7D00FC6481 /* NSManagedObject+MagicalFinders.m in Sources */,
+				496CBE281C57AD7D00FC6481 /* NSManagedObjectContext+MagicalObserving.m in Sources */,
+				496CBE261C57AD7D00FC6481 /* NSManagedObject+MagicalRecord.m in Sources */,
+				496CBE451C57C72000FC6481 /* Password+CoreDataProperties.m in Sources */,
+				496CBE2A1C57AD7D00FC6481 /* NSManagedObjectContext+MagicalSaves.m in Sources */,
+				496CC0FF1C5BBCBD00FC6481 /* FTImageSaver.m in Sources */,
+				496CBE2D1C57AD7D00FC6481 /* NSPersistentStore+MagicalRecord.m in Sources */,
+				496CBE331C57AD7D00FC6481 /* MagicalRecord+Setup.m in Sources */,
+				496CBE1E1C57AD7D00FC6481 /* NSEntityDescription+MagicalDataImport.m in Sources */,
+				496CBE221C57AD7D00FC6481 /* NSString+MagicalDataImport.m in Sources */,
+				496CBE201C57AD7D00FC6481 /* NSObject+MagicalDataImport.m in Sources */,
+				496CBE321C57AD7D00FC6481 /* MagicalRecord+Options.m in Sources */,
+				496CBE211C57AD7D00FC6481 /* NSRelationshipDescription+MagicalDataImport.m in Sources */,
+				496CBE461C57C72000FC6481 /* Password.m in Sources */,
+				496CBE231C57AD7D00FC6481 /* NSManagedObject+MagicalAggregation.m in Sources */,
+				496CBE2B1C57AD7D00FC6481 /* NSManagedObjectContext+MagicalThreading.m in Sources */,
+				496CBE241C57AD7D00FC6481 /* NSManagedObject+MagicalDataImport.m in Sources */,
+				496CC10C1C5C9E6F00FC6481 /* FTSearchBar.m in Sources */,
+				496CBE481C57C72000FC6481 /* PasswordDetails.m in Sources */,
+				496CBE1F1C57AD7D00FC6481 /* NSNumber+MagicalDataImport.m in Sources */,
+				496CBE351C57AD7D00FC6481 /* MagicalRecord.m in Sources */,
+				496CBDAF1C57AD4700FC6481 /* main.m in Sources */,
+				496CBE301C57AD7D00FC6481 /* MagicalRecord+ErrorHandling.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		496CBDBF1C57AD4700FC6481 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				496CBDC81C57AD4700FC6481 /* FTPasswordManagerTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		496CBDCA1C57AD4700FC6481 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				496CBDD31C57AD4700FC6481 /* FTPasswordManagerUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		496CBDC51C57AD4700FC6481 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 496CBDA91C57AD4700FC6481 /* FTPasswordManager */;
+			targetProxy = 496CBDC41C57AD4700FC6481 /* PBXContainerItemProxy */;
+		};
+		496CBDD01C57AD4700FC6481 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 496CBDA91C57AD4700FC6481 /* FTPasswordManager */;
+			targetProxy = 496CBDCF1C57AD4700FC6481 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		496CBDB61C57AD4700FC6481 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				496CBDB71C57AD4700FC6481 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		496CBDBB1C57AD4700FC6481 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				496CBDBC1C57AD4700FC6481 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		496CBDD51C57AD4700FC6481 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/FTPasswordManager/FTPasswordManager-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		496CBDD61C57AD4700FC6481 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/FTPasswordManager/FTPasswordManager-Prefix.pch";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		496CBDD81C57AD4700FC6481 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				INFOPLIST_FILE = FTPasswordManager/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.fountain.oc.FTPasswordManager;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		496CBDD91C57AD4700FC6481 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				INFOPLIST_FILE = FTPasswordManager/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.fountain.oc.FTPasswordManager;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		496CBDDB1C57AD4700FC6481 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = FTPasswordManagerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.fountain.oc.FTPasswordManagerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FTPasswordManager.app/FTPasswordManager";
+			};
+			name = Debug;
+		};
+		496CBDDC1C57AD4700FC6481 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = FTPasswordManagerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.fountain.oc.FTPasswordManagerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FTPasswordManager.app/FTPasswordManager";
+			};
+			name = Release;
+		};
+		496CBDDE1C57AD4700FC6481 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = FTPasswordManagerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.fountain.oc.FTPasswordManagerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = FTPasswordManager;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		496CBDDF1C57AD4700FC6481 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = FTPasswordManagerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.fountain.oc.FTPasswordManagerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = FTPasswordManager;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		496CBDA51C57AD4700FC6481 /* Build configuration list for PBXProject "FTPasswordManager" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				496CBDD51C57AD4700FC6481 /* Debug */,
+				496CBDD61C57AD4700FC6481 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		496CBDD71C57AD4700FC6481 /* Build configuration list for PBXNativeTarget "FTPasswordManager" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				496CBDD81C57AD4700FC6481 /* Debug */,
+				496CBDD91C57AD4700FC6481 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		496CBDDA1C57AD4700FC6481 /* Build configuration list for PBXNativeTarget "FTPasswordManagerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				496CBDDB1C57AD4700FC6481 /* Debug */,
+				496CBDDC1C57AD4700FC6481 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		496CBDDD1C57AD4700FC6481 /* Build configuration list for PBXNativeTarget "FTPasswordManagerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				496CBDDE1C57AD4700FC6481 /* Debug */,
+				496CBDDF1C57AD4700FC6481 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		496CBE3A1C57BFD000FC6481 /* PasswordModel.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				496CBE3B1C57BFD000FC6481 /* PasswordModel.xcdatamodel */,
+			);
+			currentVersion = 496CBE3B1C57BFD000FC6481 /* PasswordModel.xcdatamodel */;
+			path = PasswordModel.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 496CBDA21C57AD4700FC6481 /* Project object */;
+}
