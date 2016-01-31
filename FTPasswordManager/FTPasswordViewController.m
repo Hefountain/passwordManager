@@ -168,7 +168,7 @@
     
     if (!hintLabel) {
         hintLabel = [[UILabel alloc] initWithFrame:CGRectMake(x + 3, CGRectGetMaxY(lineImgView.frame) + 8, SCREEN_WIDTH, 30)];
-        hintLabel.text = @"请填写备注信息";
+        hintLabel.text = @"请填写备注信息!";
         hintLabel.textColor = [UIColor colorWithRed:207/255.0 green:207/255.0 blue:212/255.0 alpha:1.0];
         hintLabel.font = [UIFont systemFontOfSize:Property_Font];
     }
