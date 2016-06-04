@@ -15,10 +15,10 @@
     self = [super initWithFrame:frame];
     if (self) {
         self.layer.borderWidth = 0.5;
-        self.layer.backgroundColor = [UIColor blackColor].CGColor;
-        self.backgroundColor = [UIColor clearColor];
+       // self.layer.backgroundColor = [UIColor blackColor].CGColor;
+       // self.backgroundColor = [UIColor clearColor];
         self.backgroundImage = [[UIImage alloc] init];
-        self.bgSearchImage = [UIImage imageNamed:@"search_frame"];
+       // self.bgSearchImage = [UIImage imageNamed:@"search_frame"];
         
     }
     return self;

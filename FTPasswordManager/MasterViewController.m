@@ -25,6 +25,7 @@
     [super viewDidLoad];
     
     self.title = @"密码小熊";
+    self.
     self.navigationController.navigationBar.barTintColor = [UIColor colorWithRed:124/255.0 green:207/255.0 blue:249/255.0 alpha:0.8];
 
     // 必须先注册UITableViewCell class
@@ -41,6 +42,8 @@
     [view addSubview:collectButton];
     UIBarButtonItem *barItem = [[UIBarButtonItem alloc] initWithCustomView:view];
     self.navigationItem.rightBarButtonItem = barItem;
+    
+    
 }
 
 
@@ -84,12 +87,12 @@
 }
 
 - (UIView *)tableView:(UITableView *)tableView viewForHeaderInSection:(NSInteger)section {
-    _searchBar = [[FTSearchBar alloc] initWithFrame:CGRectMake(30, 5, SCREEN_WIDTH - 60, 30)];
-    _searchBar.translucent = NO;
+    _searchBar = [[FTSearchBar alloc] initWithFrame:CGRectMake(60, 5, SCREEN_WIDTH - 60, 30)];
+    _searchBar.translucent = YES;
     _searchBar.layer.cornerRadius = 10;
     _searchBar.clipsToBounds = YES;
     _searchBar.placeholder = @"搜索标题";
-    _searchBar.backgroundColor = [UIColor colorWithRed:231/255.0 green:231/255.0 blue:231/255.0 alpha:0.8];
+   // _searchBar.backgroundColor = [UIColor colorWithRed:231/255.0 green:231/255.0 blue:231/255.0 alpha:0.8];
     _searchBar.bgSearchImage = nil;
     _searchBar.autoresizingMask = UIViewAutoresizingFlexibleWidth | UIViewAutoresizingFlexibleBottomMargin;
     _searchBar.delegate = self;
