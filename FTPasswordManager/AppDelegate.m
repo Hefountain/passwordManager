@@ -11,6 +11,7 @@
 #import "PasswordDetails.h"
 #import "MasterViewController.h"
 #import "FTImageSaver.h"
+#import "THPinViewController/THPinViewController.h"
 
 @interface AppDelegate ()
 
@@ -37,6 +38,8 @@
         [[NSUserDefaults standardUserDefaults] setBool:YES forKey:@"MR_HasPrefilledBeers"];
         [[NSUserDefaults standardUserDefaults] synchronize];
     }
+    
+    
     [self.window makeKeyAndVisible];
     return YES;
 }
